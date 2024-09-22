@@ -1,49 +1,436 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- </head>
- <body>
+    <title>Tabela Brasileirão 2024</title>
+</head>
+<body>
     <style>
         td{
+            padding: 7px;
             text-align: center;
         }
     </style>
-    <main>
-        <table>
-            <thead>
-                <th>
-                    <td colspan="4" width="130px" >Clube</td>
-                    <td>Pts</td>
-                    <td>Pj</td>
-                    <td>VIT</td>
-                    <td>E</td>
-                    <td>DER</td>
-                    <td>GM</td>
-                    <td>GC</td>
-                    <td>SG</td>
-                    <td colspan="2" width="150px" >Ultimas 5</td>
-                 </th>
-            </thead>
-        </table>
-        <body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3" width="150px">Clube</th>
+                <th>Pts</th>
+                <th>PJ</th>
+                <th>VIT</th>
+                <th>E</th>
+                <th>DER</th>
+                <th>GM</th>
+                <th>GC</th>
+                <th>SG</th>
+                <th>Ultimas 5</th>
+            </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>1</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/KLDWYp-H8CAOT9H_JgizRg_48x48.png" alt=""></td>
                 <td>Botafogo</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>56</td>
+                <td>27</td>
+                <td>17</td>
+                <td>5</td>
+                <td>5</td>
+                <td>46</td>
+                <td>25</td>
+                <td>21</td>
+                <td>
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_win.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_draw.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_win.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_win.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_recent_win.svg" alt="">
+                </td>
             </tr>
-        </body>
-    </main>
- </body>
- </html>
+            <!-- tr>td*12 -->
+            <tr>
+                <td>2</td>
+                <td><img height="22px" width="" src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg" alt=""></td>
+                <td>Palmeiras</td>
+                <td>50</td>
+                <td>26</td>
+                <td>15</td>
+                <td>5</td>
+                <td>6</td>
+                <td>43</td>
+                <td>19</td>
+                <td>24</td>
+                <td>
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_draw.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_win.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_win.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_win.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_recent_win.svg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/me10ephzRxdj45zVq1Risg_48x48.png" alt=""></td>
+                <td>Fortaleza</td>
+                <td>50</td>
+                <td>27</td>
+                <td>14</td>
+                <td>8</td>
+                <td>5</td>
+                <td>32</td>
+                <td>25</td>
+                <td>7</td>
+                <td>
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_win.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_win.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_loss.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_loss.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_recent_draw.svg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/orE554NToSkH6nuwofe7Yg_48x48.png" alt=""></td>
+                <td>Flamengo</td>
+                <td>45</td>
+                <td>25</td>
+                <td>13</td>
+                <td>6</td>
+                <td>6</td>
+                <td>40</td>
+                <td>29</td>
+                <td>11</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_loss.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_recent_draw.svg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/4w2Z97Hf9CSOqICK3a8AxQ_48x48.png" alt=""></td>
+                <td>São Paulo</td>
+                <td>44</td>
+                <td>26</td>
+                <td>13</td>
+                <td>5</td>
+                <td>8</td>
+                <td>34</td>
+                <td>26</td>
+                <td>8</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_loss.svg" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_recent_draw.svg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/nIdbR6qIUDyZUBO9vojSPw_48x48.png" alt=""></td>
+                <td>Bahia</td>
+                <td>42</td>
+                <td>27</td>
+                <td>12</td>
+                <td>6</td>
+                <td>9</td>
+                <td>38</td>
+                <td>29</td>
+                <td>9</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="https://www.gstatic.com/onebox/sports/standings/last_5_loss.svg" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDBDNC45MjQ4NyAwIDAgNC45MjQ4NyAwIDExQzAgMTcuMDc1MSA0LjkyNDg3IDIyIDExIDIyQzE3LjA3NTEgMjIgMjIgMTcuMDc1MSAyMiAxMUMyMiA0LjkyNDg3IDE3LjA3NTEgMCAxMSAwWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNMTEgMkM2LjAyOTQ0IDIgMiA2LjAyOTQ0IDIgMTFDMiAxNS45NzA2IDYuMDI5NDQgMjAgMTEgMjBDMTUuOTcwNiAyMCAyMCAxNS45NzA2IDIwIDExQzIwIDYuMDI5NDQgMTUuOTcwNiAyIDExIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgM0MxNS40MTgzIDMgMTkgNi41ODE3MiAxOSAxMUMxOSAxNS40MTgzIDE1LjQxODMgMTkgMTEgMTlDNi41ODE3MiAxOSAzIDE1LjQxODMgMyAxMUMzIDYuNTgxNzIgNi41ODE3MiAzIDExIDNaIiBmaWxsPSIjMzRBODUzIi8+CjxwYXRoIGQ9Ik05LjIgMTIuMjhMNy4xMiAxMC4yTDYgMTEuMzJMOS4yIDE0LjUyTDE1LjYgOC4xMkwxNC40OCA3TDkuMiAxMi4yOFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/Tcv9X__nIh-6wFNJPMwIXQ_48x48.png" alt=""></td>
+                <td>Cruzeiro</td>
+                <td>41</td>
+                <td>26</td>
+                <td>12</td>
+                <td>5</td>
+                <td>9</td>
+                <td>34</td>
+                <td>27</td>
+                <td>7</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgMEM0LjkyNDg3IDAgMCA0LjkyNDg3IDAgMTFDMCAxNy4wNzUxIDQuOTI0ODcgMjIgMTEgMjJDMTcuMDc1MSAyMiAyMiAxNy4wNzUxIDIyIDExQzIyIDQuOTI0ODcgMTcuMDc1MSAwIDExIDBaIiBmaWxsPSIjRUE0MzM1Ii8+CjxwYXRoIGQ9Ik0xMSAyQzYuMDI5NDQgMiAyIDYuMDI5NDQgMiAxMUMyIDE1Ljk3MDYgNi4wMjk0NCAyMCAxMSAyMEMxNS45NzA2IDIwIDIwIDE1Ljk3MDYgMjAgMTFDMjAgNi4wMjk0NCAxNS45NzA2IDIgMTEgMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEgMTlDMTUuNDE4MyAxOSAxOSAxNS40MTgzIDE5IDExQzE5IDYuNTgxNzIgMTUuNDE4MyAzIDExIDNDNi41ODE3MiAzIDMgNi41ODE3MiAzIDExQzMgMTUuNDE4MyA2LjU4MTcyIDE5IDExIDE5WiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjI2MjcgMTQuMzk0MUwxMSAxMi4xMzE0TDguNzM3MjYgMTQuMzk0MUw3LjYwNTg5IDEzLjI2MjdMOS44Njg2MyAxMUw3LjYwNTg5IDguNzM3MjVMOC43MzcyNiA3LjYwNTg4TDExIDkuODY4NjJMMTMuMjYyNyA3LjYwNTg4TDE0LjM5NDEgOC43MzcyNUwxMi4xMzE0IDExTDE0LjM5NDEgMTMuMjYyN0wxMy4yNjI3IDE0LjM5NDFaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_48x48.png" alt=""></td>
+                <td>Internacional</td>
+                <td>38</td>
+                <td>24</td>
+                <td>10</td>
+                <td>8</td>
+                <td>6</td>
+                <td>27</td>
+                <td>20</td>
+                <td>7</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDBDNC45MjQ4NyAwIDAgNC45MjQ4NyAwIDExQzAgMTcuMDc1MSA0LjkyNDg3IDIyIDExIDIyQzE3LjA3NTEgMjIgMjIgMTcuMDc1MSAyMiAxMUMyMiA0LjkyNDg3IDE3LjA3NTEgMCAxMSAwWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNMTEgMkM2LjAyOTQ0IDIgMiA2LjAyOTQ0IDIgMTFDMiAxNS45NzA2IDYuMDI5NDQgMjAgMTEgMjBDMTUuOTcwNiAyMCAyMCAxNS45NzA2IDIwIDExQzIwIDYuMDI5NDQgMTUuOTcwNiAyIDExIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgM0MxNS40MTgzIDMgMTkgNi41ODE3MiAxOSAxMUMxOSAxNS40MTgzIDE1LjQxODMgMTkgMTEgMTlDNi41ODE3MiAxOSAzIDE1LjQxODMgMyAxMUMzIDYuNTgxNzIgNi41ODE3MiAzIDExIDNaIiBmaWxsPSIjMzRBODUzIi8+CjxwYXRoIGQ9Ik05LjIgMTIuMjhMNy4xMiAxMC4yTDYgMTEuMzJMOS4yIDE0LjUyTDE1LjYgOC4xMkwxNC40OCA3TDkuMiAxMi4yOFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/hHwT8LwRmYCAGxQ-STLxYA_48x48.png" alt=""></td>
+                <td>Vasco da Gama</td>
+                <td>35</td>
+                <td>25</td>
+                <td>10</td>
+                <td>5</td>
+                <td>10</td>
+                <td>30</td>
+                <td>35</td>
+                <td>-5</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDBDNC45MjQ4NyAwIDAgNC45MjQ4NyAwIDExQzAgMTcuMDc1MSA0LjkyNDg3IDIyIDExIDIyQzE3LjA3NTEgMjIgMjIgMTcuMDc1MSAyMiAxMUMyMiA0LjkyNDg3IDE3LjA3NTEgMCAxMSAwWiIgZmlsbD0iIzlEOUJBNyIvPgo8cGF0aCBkPSJNMTEgMkM2LjAyOTQ0IDIgMiA2LjAyOTQ0IDIgMTFDMiAxNS45NzA2IDYuMDI5NDQgMjAgMTEgMjBDMTUuOTcwNiAyMCAyMCAxNS45NzA2IDIwIDExQzIwIDYuMDI5NDQgMTUuOTcwNiAyIDExIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiM5RDlCQTciLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDEwSDE0VjEySDhWMTBaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/q9fhEsgpuyRq58OgmSndcQ_48x48.png" alt=""></td>
+                <td>Atlético-MG</td>
+                <td>33</td>
+                <td>24</td>
+                <td>8</td>
+                <td>9</td>
+                <td>7</td>
+                <td>32</td>
+                <td>36</td>
+                <td>-4</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgMEM0LjkyNDg3IDAgMCA0LjkyNDg3IDAgMTFDMCAxNy4wNzUxIDQuOTI0ODcgMjIgMTEgMjJDMTcuMDc1MSAyMiAyMiAxNy4wNzUxIDIyIDExQzIyIDQuOTI0ODcgMTcuMDc1MSAwIDExIDBaIiBmaWxsPSIjRUE0MzM1Ii8+CjxwYXRoIGQ9Ik0xMSAyQzYuMDI5NDQgMiAyIDYuMDI5NDQgMiAxMUMyIDE1Ljk3MDYgNi4wMjk0NCAyMCAxMSAyMEMxNS45NzA2IDIwIDIwIDE1Ljk3MDYgMjAgMTFDMjAgNi4wMjk0NCAxNS45NzA2IDIgMTEgMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEgMTlDMTUuNDE4MyAxOSAxOSAxNS40MTgzIDE5IDExQzE5IDYuNTgxNzIgMTUuNDE4MyAzIDExIDNDNi41ODE3MiAzIDMgNi41ODE3MiAzIDExQzMgMTUuNDE4MyA2LjU4MTcyIDE5IDExIDE5WiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjI2MjcgMTQuMzk0MUwxMSAxMi4xMzE0TDguNzM3MjYgMTQuMzk0MUw3LjYwNTg5IDEzLjI2MjdMOS44Njg2MyAxMUw3LjYwNTg5IDguNzM3MjVMOC43MzcyNiA3LjYwNTg4TDExIDkuODY4NjJMMTMuMjYyNyA3LjYwNTg4TDE0LjM5NDEgOC43MzcyNUwxMi4xMzE0IDExTDE0LjM5NDEgMTMuMjYyN0wxMy4yNjI3IDE0LjM5NDFaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/JrXw-m4Dov0gE2Sh6XJQMQ_48x48.png" alt=""></td>
+                <td>Juventude</td>
+                <td>32</td>
+                <td>27</td>
+                <td>8</td>
+                <td>8</td>
+                <td>11</td>
+                <td>31</td>
+                <td>37</td>
+                <td>-6</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgMEM0LjkyNDg3IDAgMCA0LjkyNDg3IDAgMTFDMCAxNy4wNzUxIDQuOTI0ODcgMjIgMTEgMjJDMTcuMDc1MSAyMiAyMiAxNy4wNzUxIDIyIDExQzIyIDQuOTI0ODcgMTcuMDc1MSAwIDExIDBaIiBmaWxsPSIjRUE0MzM1Ii8+CjxwYXRoIGQ9Ik0xMSAyQzYuMDI5NDQgMiAyIDYuMDI5NDQgMiAxMUMyIDE1Ljk3MDYgNi4wMjk0NCAyMCAxMSAyMEMxNS45NzA2IDIwIDIwIDE1Ljk3MDYgMjAgMTFDMjAgNi4wMjk0NCAxNS45NzA2IDIgMTEgMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEgMTlDMTUuNDE4MyAxOSAxOSAxNS40MTgzIDE5IDExQzE5IDYuNTgxNzIgMTUuNDE4MyAzIDExIDNDNi41ODE3MiAzIDMgNi41ODE3MiAzIDExQzMgMTUuNDE4MyA2LjU4MTcyIDE5IDExIDE5WiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjI2MjcgMTQuMzk0MUwxMSAxMi4xMzE0TDguNzM3MjYgMTQuMzk0MUw3LjYwNTg5IDEzLjI2MjdMOS44Njg2MyAxMUw3LjYwNTg5IDguNzM3MjVMOC43MzcyNiA3LjYwNTg4TDExIDkuODY4NjJMMTMuMjYyNyA3LjYwNTg4TDE0LjM5NDEgOC43MzcyNUwxMi4xMzE0IDExTDE0LjM5NDEgMTMuMjYyN0wxMy4yNjI3IDE0LjM5NDFaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td> 
+            </tr>
+            <tr>
+                <td>12</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/lMyw2zn1Z4cdkaxKJWnsQw_48x48.png" alt=""></td>
+                <td>Bragantino</td>
+                <td>31</td>
+                <td>25</td>
+                <td>8</td>
+                <td>7</td>
+                <td>10</td>
+                <td>31</td>
+                <td>32</td>
+                <td>-1</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDBDNC45MjQ4NyAwIDAgNC45MjQ4NyAwIDExQzAgMTcuMDc1MSA0LjkyNDg3IDIyIDExIDIyQzE3LjA3NTEgMjIgMjIgMTcuMDc1MSAyMiAxMUMyMiA0LjkyNDg3IDE3LjA3NTEgMCAxMSAwWiIgZmlsbD0iIzlEOUJBNyIvPgo8cGF0aCBkPSJNMTEgMkM2LjAyOTQ0IDIgMiA2LjAyOTQ0IDIgMTFDMiAxNS45NzA2IDYuMDI5NDQgMjAgMTEgMjBDMTUuOTcwNiAyMCAyMCAxNS45NzA2IDIwIDExQzIwIDYuMDI5NDQgMTUuOTcwNiAyIDExIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiM5RDlCQTciLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDEwSDE0VjEySDhWMTBaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td> 
+            </tr>
+            <tr>
+                <td>13</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/9LkdBR4L5plovKM8eIy7nQ_48x48.png" alt=""></td>
+                <td>Athletico-PR</td>
+                <td>30</td>
+                <td>24</td>
+                <td>8</td>
+                <td>6</td>
+                <td>10</td>
+                <td>27</td>
+                <td>29</td>
+                <td>-2</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDBDNC45MjQ4NyAwIDAgNC45MjQ4NyAwIDExQzAgMTcuMDc1MSA0LjkyNDg3IDIyIDExIDIyQzE3LjA3NTEgMjIgMjIgMTcuMDc1MSAyMiAxMUMyMiA0LjkyNDg3IDE3LjA3NTEgMCAxMSAwWiIgZmlsbD0iIzlEOUJBNyIvPgo8cGF0aCBkPSJNMTEgMkM2LjAyOTQ0IDIgMiA2LjAyOTQ0IDIgMTFDMiAxNS45NzA2IDYuMDI5NDQgMjAgMTEgMjBDMTUuOTcwNiAyMCAyMCAxNS45NzA2IDIwIDExQzIwIDYuMDI5NDQgMTUuOTcwNiAyIDExIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiM5RDlCQTciLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDEwSDE0VjEySDhWMTBaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td>  
+            </tr>
+            <tr>
+                <td>14</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/Ku-73v_TW9kpex-IEGb0ZA_48x48.png" alt=""></td>
+                <td>Grêmio</td>
+                <td>28</td>
+                <td>24</td>
+                <td>8</td>
+                <td>4</td>
+                <td>12</td>
+                <td>25</td>
+                <td>30</td>
+                <td>-5</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDBDNC45MjQ4NyAwIDAgNC45MjQ4NyAwIDExQzAgMTcuMDc1MSA0LjkyNDg3IDIyIDExIDIyQzE3LjA3NTEgMjIgMjIgMTcuMDc1MSAyMiAxMUMyMiA0LjkyNDg3IDE3LjA3NTEgMCAxMSAwWiIgZmlsbD0iIzlEOUJBNyIvPgo8cGF0aCBkPSJNMTEgMkM2LjAyOTQ0IDIgMiA2LjAyOTQ0IDIgMTFDMiAxNS45NzA2IDYuMDI5NDQgMjAgMTEgMjBDMTUuOTcwNiAyMCAyMCAxNS45NzA2IDIwIDExQzIwIDYuMDI5NDQgMTUuOTcwNiAyIDExIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiM5RDlCQTciLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDEwSDE0VjEySDhWMTBaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td>  
+            </tr>
+            <tr>
+                <td>15</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/LHSM6VchpkI4NIptoSTHOg_48x48.png" alt=""></td>
+                <td>EC Vitória</td>
+                <td>28</td>
+                <td>27</td>
+                <td>8</td>
+                <td>4</td>
+                <td>15</td>
+                <td>29</td>
+                <td>39</td>
+                <td>-10</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDBDNC45MjQ4NyAwIDAgNC45MjQ4NyAwIDExQzAgMTcuMDc1MSA0LjkyNDg3IDIyIDExIDIyQzE3LjA3NTEgMjIgMjIgMTcuMDc1MSAyMiAxMUMyMiA0LjkyNDg3IDE3LjA3NTEgMCAxMSAwWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNMTEgMkM2LjAyOTQ0IDIgMiA2LjAyOTQ0IDIgMTFDMiAxNS45NzA2IDYuMDI5NDQgMjAgMTEgMjBDMTUuOTcwNiAyMCAyMCAxNS45NzA2IDIwIDExQzIwIDYuMDI5NDQgMTUuOTcwNiAyIDExIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgM0MxNS40MTgzIDMgMTkgNi41ODE3MiAxOSAxMUMxOSAxNS40MTgzIDE1LjQxODMgMTkgMTEgMTlDNi41ODE3MiAxOSAzIDE1LjQxODMgMyAxMUMzIDYuNTgxNzIgNi41ODE3MiAzIDExIDNaIiBmaWxsPSIjMzRBODUzIi8+CjxwYXRoIGQ9Ik05LjIgMTIuMjhMNy4xMiAxMC4yTDYgMTEuMzJMOS4yIDE0LjUyTDE1LjYgOC4xMkwxNC40OCA3TDkuMiAxMi4yOFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" alt="">
+                </td>  
+            </tr>
+            <tr>
+                <td>16</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/u_L7Mkp33uNmFTv3uUlXeQ_48x48.png" alt=""></td>
+                <td>Criciúma</td>
+                <td>28</td>
+                <td>25</td>
+                <td>7</td>
+                <td>7</td>
+                <td>11</td>
+                <td>32</td>
+                <td>40</td>
+                <td>-8</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgMEM0LjkyNDg3IDAgMCA0LjkyNDg3IDAgMTFDMCAxNy4wNzUxIDQuOTI0ODcgMjIgMTEgMjJDMTcuMDc1MSAyMiAyMiAxNy4wNzUxIDIyIDExQzIyIDQuOTI0ODcgMTcuMDc1MSAwIDExIDBaIiBmaWxsPSIjRUE0MzM1Ii8+CjxwYXRoIGQ9Ik0xMSAyQzYuMDI5NDQgMiAyIDYuMDI5NDQgMiAxMUMyIDE1Ljk3MDYgNi4wMjk0NCAyMCAxMSAyMEMxNS45NzA2IDIwIDIwIDE1Ljk3MDYgMjAgMTFDMjAgNi4wMjk0NCAxNS45NzA2IDIgMTEgMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEgMTlDMTUuNDE4MyAxOSAxOSAxNS40MTgzIDE5IDExQzE5IDYuNTgxNzIgMTUuNDE4MyAzIDExIDNDNi41ODE3MiAzIDMgNi41ODE3MiAzIDExQzMgMTUuNDE4MyA2LjU4MTcyIDE5IDExIDE5WiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjI2MjcgMTQuMzk0MUwxMSAxMi4xMzE0TDguNzM3MjYgMTQuMzk0MUw3LjYwNTg5IDEzLjI2MjdMOS44Njg2MyAxMUw3LjYwNTg5IDguNzM3MjVMOC43MzcyNiA3LjYwNTg4TDExIDkuODY4NjJMMTMuMjYyNyA3LjYwNTg4TDE0LjM5NDEgOC43MzcyNUwxMi4xMzE0IDExTDE0LjM5NDEgMTMuMjYyN0wxMy4yNjI3IDE0LjM5NDFaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td>  
+            </tr>
+            <tr>
+                <td>17</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/tCMSqgXVHROpdCpQhzTo1g_48x48.png" alt=""></td>
+                <td>Corinthias</td>
+                <td>28</td>
+                <td>27</td>
+                <td>6</td>
+                <td>10</td>
+                <td>11</td>
+                <td>26</td>
+                <td>33</td>
+                <td>-7</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDBDNC45MjQ4NyAwIDAgNC45MjQ4NyAwIDExQzAgMTcuMDc1MSA0LjkyNDg3IDIyIDExIDIyQzE3LjA3NTEgMjIgMjIgMTcuMDc1MSAyMiAxMUMyMiA0LjkyNDg3IDE3LjA3NTEgMCAxMSAwWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNMTEgMkM2LjAyOTQ0IDIgMiA2LjAyOTQ0IDIgMTFDMiAxNS45NzA2IDYuMDI5NDQgMjAgMTEgMjBDMTUuOTcwNiAyMCAyMCAxNS45NzA2IDIwIDExQzIwIDYuMDI5NDQgMTUuOTcwNiAyIDExIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgM0MxNS40MTgzIDMgMTkgNi41ODE3MiAxOSAxMUMxOSAxNS40MTgzIDE1LjQxODMgMTkgMTEgMTlDNi41ODE3MiAxOSAzIDE1LjQxODMgMyAxMUMzIDYuNTgxNzIgNi41ODE3MiAzIDExIDNaIiBmaWxsPSIjMzRBODUzIi8+CjxwYXRoIGQ9Ik05LjIgMTIuMjhMNy4xMiAxMC4yTDYgMTEuMzJMOS4yIDE0LjUyTDE1LjYgOC4xMkwxNC40OCA3TDkuMiAxMi4yOFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" alt="">
+                </td>  
+            </tr>
+            <tr>
+                <td>18</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/fCMxMMDF2AZPU7LzYKSlig_48x48.png" alt=""></td>
+                <td>Fluminense</td>
+                <td>27</td>
+                <td>26</td>
+                <td>7</td>
+                <td>6</td>
+                <td>13</td>
+                <td>21</td>
+                <td>29</td>
+                <td>-8</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgMEM0LjkyNDg3IDAgMCA0LjkyNDg3IDAgMTFDMCAxNy4wNzUxIDQuOTI0ODcgMjIgMTEgMjJDMTcuMDc1MSAyMiAyMiAxNy4wNzUxIDIyIDExQzIyIDQuOTI0ODcgMTcuMDc1MSAwIDExIDBaIiBmaWxsPSIjRUE0MzM1Ii8+CjxwYXRoIGQ9Ik0xMSAyQzYuMDI5NDQgMiAyIDYuMDI5NDQgMiAxMUMyIDE1Ljk3MDYgNi4wMjk0NCAyMCAxMSAyMEMxNS45NzA2IDIwIDIwIDE1Ljk3MDYgMjAgMTFDMjAgNi4wMjk0NCAxNS45NzA2IDIgMTEgMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEgMTlDMTUuNDE4MyAxOSAxOSAxNS40MTgzIDE5IDExQzE5IDYuNTgxNzIgMTUuNDE4MyAzIDExIDNDNi41ODE3MiAzIDMgNi41ODE3MiAzIDExQzMgMTUuNDE4MyA2LjU4MTcyIDE5IDExIDE5WiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjI2MjcgMTQuMzk0MUwxMSAxMi4xMzE0TDguNzM3MjYgMTQuMzk0MUw3LjYwNTg5IDEzLjI2MjdMOS44Njg2MyAxMUw3LjYwNTg5IDguNzM3MjVMOC43MzcyNiA3LjYwNTg4TDExIDkuODY4NjJMMTMuMjYyNyA3LjYwNTg4TDE0LjM5NDEgOC43MzcyNUwxMi4xMzE0IDExTDE0LjM5NDEgMTMuMjYyN0wxMy4yNjI3IDE0LjM5NDFaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td>  
+            </tr>
+            <tr>
+                <td>19</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/j6U8Rgt_6yyf0Egs9nREXw_48x48.png" alt=""></td>
+                <td>Cuiabá</td>
+                <td>22</td>
+                <td>25</td>
+                <td>5</td>
+                <td>7</td>
+                <td>13</td>
+                <td>23</td>
+                <td>38</td>
+                <td>-15</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMSAxOUMxNS40MTgzIDE5IDE5IDE1LjQxODMgMTkgMTFDMTkgNi41ODE3MiAxNS40MTgzIDMgMTEgM0M2LjU4MTcyIDMgMyA2LjU4MTcyIDMgMTFDMyAxNS40MTgzIDYuNTgxNzIgMTkgMTEgMTlaIiBmaWxsPSIjOUQ5QkE3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAxMEgxNFYxMkg4VjEwWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgMEM0LjkyNDg3IDAgMCA0LjkyNDg3IDAgMTFDMCAxNy4wNzUxIDQuOTI0ODcgMjIgMTEgMjJDMTcuMDc1MSAyMiAyMiAxNy4wNzUxIDIyIDExQzIyIDQuOTI0ODcgMTcuMDc1MSAwIDExIDBaIiBmaWxsPSIjRUE0MzM1Ii8+CjxwYXRoIGQ9Ik0xMSAyQzYuMDI5NDQgMiAyIDYuMDI5NDQgMiAxMUMyIDE1Ljk3MDYgNi4wMjk0NCAyMCAxMSAyMEMxNS45NzA2IDIwIDIwIDE1Ljk3MDYgMjAgMTFDMjAgNi4wMjk0NCAxNS45NzA2IDIgMTEgMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEgMTlDMTUuNDE4MyAxOSAxOSAxNS40MTgzIDE5IDExQzE5IDYuNTgxNzIgMTUuNDE4MyAzIDExIDNDNi41ODE3MiAzIDMgNi41ODE3MiAzIDExQzMgMTUuNDE4MyA2LjU4MTcyIDE5IDExIDE5WiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjI2MjcgMTQuMzk0MUwxMSAxMi4xMzE0TDguNzM3MjYgMTQuMzk0MUw3LjYwNTg5IDEzLjI2MjdMOS44Njg2MyAxMUw3LjYwNTg5IDguNzM3MjVMOC43MzcyNiA3LjYwNTg4TDExIDkuODY4NjJMMTMuMjYyNyA3LjYwNTg4TDE0LjM5NDEgOC43MzcyNUwxMi4xMzE0IDExTDE0LjM5NDEgMTMuMjYyN0wxMy4yNjI3IDE0LjM5NDFaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td>  
+            </tr>
+            <tr>
+                <td>20</td>
+                <td><img height="22px" width="" src="https://ssl.gstatic.com/onebox/media/sports/logos/9mqMGndwoR9og_Z0uEl2kw_48x48.png" alt=""></td>
+                <td>Atlético-GO</td>
+                <td>18</td>
+                <td>27</td>
+                <td>4</td>
+                <td>6</td>
+                <td>17</td>
+                <td>21</td>
+                <td>45</td>
+                <td>-24</td>
+                <td>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTExIDE5QzE1LjQxODMgMTkgMTkgMTUuNDE4MyAxOSAxMUMxOSA2LjU4MTcyIDE1LjQxODMgMyAxMSAzQzYuNTgxNzIgMyAzIDYuNTgxNzIgMyAxMUMzIDE1LjQxODMgNi41ODE3MiAxOSAxMSAxOVoiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy4yNjI3IDE0LjM5NDFMMTEgMTIuMTMxNEw4LjczNzI2IDE0LjM5NDFMNy42MDU4OSAxMy4yNjI3TDkuODY4NjMgMTFMNy42MDU4OSA4LjczNzI1TDguNzM3MjYgNy42MDU4OEwxMSA5Ljg2ODYyTDEzLjI2MjcgNy42MDU4OEwxNC4zOTQxIDguNzM3MjVMMTIuMTMxNCAxMUwxNC4zOTQxIDEzLjI2MjdMMTMuMjYyNyAxNC4zOTQxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" alt="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExIDNDMTUuNDE4MyAzIDE5IDYuNTgxNzIgMTkgMTFDMTkgMTUuNDE4MyAxNS40MTgzIDE5IDExIDE5QzYuNTgxNzIgMTkgMyAxNS40MTgzIDMgMTFDMyA2LjU4MTcyIDYuNTgxNzIgMyAxMSAzWiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBkPSJNOS4yIDEyLjI4TDcuMTIgMTAuMkw2IDExLjMyTDkuMiAxNC41MkwxNS42IDguMTJMMTQuNDggN0w5LjIgMTIuMjhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEgMEM0LjkyNDg3IDAgMCA0LjkyNDg3IDAgMTFDMCAxNy4wNzUxIDQuOTI0ODcgMjIgMTEgMjJDMTcuMDc1MSAyMiAyMiAxNy4wNzUxIDIyIDExQzIyIDQuOTI0ODcgMTcuMDc1MSAwIDExIDBaIiBmaWxsPSIjRUE0MzM1Ii8+CjxwYXRoIGQ9Ik0xMSAyQzYuMDI5NDQgMiAyIDYuMDI5NDQgMiAxMUMyIDE1Ljk3MDYgNi4wMjk0NCAyMCAxMSAyMEMxNS45NzA2IDIwIDIwIDE1Ljk3MDYgMjAgMTFDMjAgNi4wMjk0NCAxNS45NzA2IDIgMTEgMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEgMTlDMTUuNDE4MyAxOSAxOSAxNS40MTgzIDE5IDExQzE5IDYuNTgxNzIgMTUuNDE4MyAzIDExIDNDNi41ODE3MiAzIDMgNi41ODE3MiAzIDExQzMgMTUuNDE4MyA2LjU4MTcyIDE5IDExIDE5WiIgZmlsbD0iI0VBNDMzNSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzLjI2MjcgMTQuMzk0MUwxMSAxMi4xMzE0TDguNzM3MjYgMTQuMzk0MUw3LjYwNTg5IDEzLjI2MjdMOS44Njg2MyAxMUw3LjYwNTg5IDguNzM3MjVMOC43MzcyNiA3LjYwNTg4TDExIDkuODY4NjJMMTMuMjYyNyA3LjYwNTg4TDE0LjM5NDEgOC43MzcyNUwxMi4xMzE0IDExTDE0LjM5NDEgMTMuMjYyN0wxMy4yNjI3IDE0LjM5NDFaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="">
+                </td>  
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>
